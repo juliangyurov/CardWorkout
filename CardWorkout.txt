@@ -1,0 +1,51 @@
+CardWorkout App
+----------------------------
+Card 250x350 - 80
+Stop! (Red)
+Restart(Green)	Rules(Blue)
+ 
+Rules:
+------------
+The value of each card represents the number of exercise you do.
+
+J = 11, Q = 12, K =  13, A = 14
+
+Spade = Push-up
+Heart = Sit-up
+Spade = Burpees
+Diamond = Jumping Jacks
+
+-------------------------
+
+CardWorkout - Swift - Storyboard
+
+RightClick on ViewController.swift - Delete -  Move to Trash
+
+Command -N
+Cocoa Touch Class  - Next - CardSelectionVC
+
+Command-Shift-L - IUImageview - 250x350 - HorizCentered VerCenter -80
+Immage - Drop all cards immages in ASSETS Folder - 10 Spades
+
+Command-Shift-L - Button - 160x50 (min44) - Horizontaly Centered - 50 from Card
+
+Style - Font System Bold 19 -  Stop!
+
+Hold Alt/Option Click and Drag - Copy of button - System Green - 
+- Restart - 115x50 - HoldCtrl-Drag to Stop! Button - Vertical Spacing - 20
+- HoldCtrl-Drag to Stop! Button - Leading 
+
+Hold Alt/Option Click and Drag - Copy of button - System Blue  -
+
+- Rules - - HoldCtrl-Drag to Stop! Button - Center Vertically 
+	  - HoldCtrl-Drag to Stop! Button - Trailing - 
+
+--------------------------------------------------------------
+IBOutlets - IBActions -
+---------------------------------------------------------
+Select CardSelectionVC.swift and Hold Alt/Option key and click on the Main.storyboard
+--------------------------------------------------------
+
+On CardImageView - Ctrl - Drag to CardsWorkout.swift
+
+
